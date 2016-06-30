@@ -1,5 +1,41 @@
-study url:[http://www.cnblogs.com/zhongweiv/p/node_redis.html#node_intro](http://www.cnblogs.com/zhongweiv/p/node_redis.html#node_intro)
+study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnblogs.com/zhongweiv/p/node_mongodb.html)
 
+
+
+
+## 运行环境 
+
+>windows:需要安装 mongodb 客户端
+
+
+## windows运行 mongodb
+
+	mongo
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/cmd_start.png)
+
+	MongoDB默认端口是27017，可以修改！ 
+
+	对于“C:\Program Files\MongoDB 2.6 Standard\bin”目录下的exe程序，做个简单的说明，可能更利于了解可以做些什么操作，基础学习关注mongod.exe和mongo.exe即可
+	
+	mongo.exe：客户端，支持js语法
+	
+	mongod.exe：服务端
+	
+	mongodump.exe：备份工具
+	
+	mongorestore.exe：恢复工具
+	
+	mongoexport.exe：导出工具
+	
+	mongoimport.exe：导入工具
+	
+	mongostat.exe：实时性能监控工具
+	
+	mongotop.exe：跟踪MongDB实例读写时间工具
+
+
+　　*更多详细解释或操作可以查看：http://docs.mongodb.org/manual/reference/program/*
 
 **cd noderedis 项目 执行**
 
@@ -8,58 +44,6 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_redis.html#node_intro](http:/
 	npm install hiredis redis　　
 	我这里采用 npm install hiredis redis 安装
 
-　　*注：两种都可用，区别在于性能，hiredis是非阻塞的，而且速度更快；如果安装了hiredis，node_redis则会默认以它为解析器，没安装就会用纯javascript解释器，对于学习或者开发环境，用哪个都无所谓*
+　　
 
 
-## 运行环境 
-
->windows:需要安装windows的redis客户端
-
-
-运行项目 
-	
-	node test.js
-	or
-	supervisor test.js
-
-
-设置密码的几种方式 
-	
-	第一种
-	// 连接远程redis
-	var redis = require('redis'),
-	    PDS_PORT = 6379,        //端口号
-	    PDS_HOST = '127.0.0.1', //服务器IP
-	    RDS_PWD = 'zxx123456', //服务器IP
-	    PDS_OPTS = {auth_pass:RDS_PWD},          //设置项
-	    client = redis.createClient(PDS_PORT,PDS_HOST,PDS_OPTS);
-	
-	第二种
-	client.auth('zxx123456');//填写密码
-	
-	第三种
-	client.auth(RDS_PWD,function(){
-	    console.log('通过认证');
-	});
-
-
-## 显示数据
-
-![](https://github.com/zxx1988328/nodejs-redis/blob/master/img/redis_result.png)
-
-
-	client.on('ready',function(err){
-	    client.hmset('short',{'js':'javascript','C#':'c Sharp'},redis.print);
-	    client.hmset('short','SQL','Structured Query Language','HTML','HyperText Mark-up Laguage',redis.print);
-	
-	    client.hgetall('short',function(err,res){
-	        if(err){
-	            console.log('Error:' + err);
-	            return ;
-	        }
-	        console.dir(res);
-	    });
-	    console.log('connect');
-	});
-
-![](https://github.com/zxx1988328/nodejs-redis/blob/master/img/redis_result1.png)
