@@ -108,3 +108,18 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/select_data.png)
+
+
+## 比较查询
+
+	大于：$gt
+	
+	小于：$lt
+	
+	大于等于：$gte
+	
+	小于等于：$lte
+	
+	非等于：$ne
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/compare_data.png)
