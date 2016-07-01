@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_mongodb",
+  "version": "1.0.0",
+  "description": "https://github.com/zxx1988328/nodejs-mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxx1988328/nodejs-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxx1988328/nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/zxx1988328/nodejs-mongodb#readme",
+  "devDependencies": {
+    "mongodb": "^2.1.18"
+  }
+}

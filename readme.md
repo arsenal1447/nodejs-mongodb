@@ -179,3 +179,9 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 	db.eval("存储过程ID()");
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/call_procedure.png)
+
+
+# 项目开始
+
+	cd nodejs_mongodb 
+	npm install mongodb //安装 mongodb 驱动
