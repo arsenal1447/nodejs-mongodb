@@ -147,10 +147,17 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/find_data.png)
 
 
-##v修改
+## 修改
 
 	前面save在_id字段已存在是就是修改操作，按指定条件修改语法如下
 
 	db.表名.update({"条件字段名":"字段值"},{$set:{"要修改的字段名":"修改后的字段值"}});
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/update_data.png)
+
+
+## 删除
+
+	db.表名.remove(条件);
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/delete_data.png)
