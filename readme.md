@@ -189,3 +189,8 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 
 >--save：将保存配置信息至package.json（package.json是nodejs项目配置文件）；
 -dev：保存至package.json的devDependencies节点，不指定-dev将保存至dependencies节点；一般保存在dependencies的像这些express/ejs/body-parser等等。*
+
+
+## 插入数据成功
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/insert_data-success.png)
