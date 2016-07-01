@@ -47,6 +47,8 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/add_db.png)
 
+
+
 创建新表tb1,然后删除掉
 
 	db.createCollection("tb1");
@@ -59,6 +61,6 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 	
 
 　　
-![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/add_table.png)
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/123.png)
 
 
