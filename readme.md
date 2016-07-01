@@ -16,7 +16,7 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 
 	MongoDB默认端口是27017，可以修改！ 
 
-	对于“C:\Program Files\MongoDB 2.6 Standard\bin”目录下的exe程序，做个简单的说明，可能更利于了解可以做些什么操作，基础学习关注mongod.exe和mongo.exe即可
+	对于“E:\Program Files\MongoDB\Server\3.0\bin”目录下的exe程序，做个简单的说明，可能更利于了解可以做些什么操作，基础学习关注mongod.exe和mongo.exe即可
 	
 	mongo.exe：客户端，支持js语法
 	
