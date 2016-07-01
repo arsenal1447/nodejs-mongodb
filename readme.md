@@ -193,4 +193,4 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 
 ## 插入数据成功
 
-![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/insert_data-success.png)
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/insert_data_success.png)
