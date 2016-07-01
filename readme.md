@@ -132,3 +132,16 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 	$nin
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/or_in_nin_data.png)
+
+
+## 查询数量：db.表名.find().count();
+
+>排序：db.表名.find().sort({"字段名":1}); 
+
+	1：表示升序  -1：表示降序
+
+>指定字段返回： db.表名.find({},{"字段名":0});　　
+
+	1：返回  0：不返回
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/find_data.png)
