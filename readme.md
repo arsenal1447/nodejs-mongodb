@@ -61,3 +61,24 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/new_table.png)
 
 
+## 添加数据
+
+
+>方法一：db.表名.insert(数据);　　
+
+　　1.从上图操作可以看出，没有去创建“tb1”表，其实通过插入操作也会自动创建
+
+　　2._id，是mongodb自已生成的，每行数据都会存在，默认是ObjectId，可以在插入数据时插入这个键的值(支持mongodb支持的所有数据类型)　　
+	
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/insert_data.png)
+
+
+>方法二：db.表名.save(数据);　　 　　
+
+　　1.从上图操作可以看出，save也可达到insert一样的插入效果
+
+　　2._id可以自已插入
+
+　　3.一个表中不一定要字段都相同
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/save_data.png)
