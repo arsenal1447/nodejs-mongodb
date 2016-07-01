@@ -207,3 +207,7 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 ## 删除数据
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/app_delete.png)
+
+## 调用存储过程
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/app_proc.png)
