@@ -12,7 +12,7 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 
 	mongo
 
-![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/cmd_start.png)
+![cmd_start](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/cmd_start.png)
 
 	MongoDB默认端口是27017，可以修改！ 
 
@@ -37,12 +37,15 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 
 　　*更多详细解释或操作可以查看：http://docs.mongodb.org/manual/reference/program/*
 
-**cd noderedis 项目 执行**
+**cd nodejs_mongodb 项目 执行**
 
- 	npm install redis
-	or
-	npm install hiredis redis　　
-	我这里采用 npm install hiredis redis 安装
+创建新的数据库zxxdb1
+
+	use zxxdb1;
+	db.movie.insert({"name":"zxx"});//必须对数据库操作,才可以显示出该数据库
+	show dbs;
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/add_db.png)
 
 　　
 
