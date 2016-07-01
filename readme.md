@@ -201,4 +201,9 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 
 ## 修改数据
 
-![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/app_select.png)
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/app_update.png)
+
+
+## 删除数据
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/app_delete.png)
