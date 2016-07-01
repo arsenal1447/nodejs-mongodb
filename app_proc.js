@@ -1,13 +1,13 @@
 var MongoClient = require('mongodb').MongoClient;
-var DB_CONN_STR = 'mongodb://localhost:27017/zxxdb1';
+var DB_CONN_STR = 'mongodb://localhost:27017/zxxdb1';    
 
 var invokeProcData = function(db, callback) {  
-   
-    db.eval('get_tb2_count', function(err, result) {
+    //存储过程调用
+    db.eval('get_tb2_count()', function(err, result) { 
         if(err){
             console.log('Error:'+ err);
             return;
-        }     
+        }             
         callback(result);
     });
 }
