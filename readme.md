@@ -45,7 +45,7 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 	db.movie.insert({"name":"zxx"});//必须对数据库操作,才可以显示出该数据库
 	show dbs;
 
-![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/add_db.png)
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/000.png)
 
 
 
