@@ -91,3 +91,20 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 	而save方法不会,会更新相同的_id所在行数据的信息*
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/diff_add_data.png)
+
+
+
+## 查询　　
+
+	查询表中所有数据：db.表名.find();
+	
+	按条件查询（支持多条件）：db.表名.find(条件); 
+	
+	查询第一条（支持条件）：db.表名.findOne(条件);
+	
+	限制数量：db.表名.find().limit(数量);
+	
+	跳过指定数量：db.表名.find().skip(数量);
+
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/select_data.png)
