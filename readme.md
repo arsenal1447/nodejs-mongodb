@@ -58,9 +58,6 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 	db.tb1.drop();
 	
 	show collections;
-	
-
-　　
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/123.png)
 
 
