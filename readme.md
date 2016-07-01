@@ -198,3 +198,7 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 ## 查询数据
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/app_select.png)
+
+## 修改数据
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/app_select.png)
