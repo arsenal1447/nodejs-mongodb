@@ -123,3 +123,12 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 	非等于：$ne
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/compare_data.png)
+
+
+## 或者：$or in和not in查询(包含、不包含) 
+	
+	$or
+	$in
+	$nin
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/or_in_nin_data.png)
