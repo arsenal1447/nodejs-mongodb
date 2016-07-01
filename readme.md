@@ -161,3 +161,21 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 	db.表名.remove(条件);
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/delete_data.png)
+
+
+
+## 存储过程
+
+>创建存储过程：
+
+	db.system.js.save({_id:"存储过程ID", 
+	value:function(参数){  
+	        -- 逻辑主体; 
+	        return 返回; 
+	}});
+
+>调用存储过程
+
+	db.eval("存储过程ID()");
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/call_procedure.png)
