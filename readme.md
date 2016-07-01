@@ -82,3 +82,12 @@ study url:[http://www.cnblogs.com/zhongweiv/p/node_mongodb.html](http://www.cnbl
 　　3.一个表中不一定要字段都相同
 
 ![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/save_data.png)
+
+
+
+>二者的区别;　 　　
+
+*从图中操作就可以看出，虽然insert和save方法都可以插入数据，当默认的“_id”值已存在时，调用insert方法插入会报错；
+	而save方法不会,会更新相同的_id所在行数据的信息*
+
+![](https://github.com/zxx1988328/nodejs-mongodb/blob/master/img/diff_add_data.png)
